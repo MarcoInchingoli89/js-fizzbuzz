@@ -20,7 +20,7 @@ for(let i = 1; i<101; i++) {
     // Per i multipli di 3 stampo Fizz
     else if (i % 3==0) console.log("Fizz");
     // Per i multipli di 5 stampo Buzz
-    else if(i % 5==0) console.log("Buzz");
-    // Altrimenti stampa un valore numerico
+    else if (i % 5==0) console.log("Buzz");
+    // Altrimenti stampo un valore numerico
     else console.log(i);
 }
