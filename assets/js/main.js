@@ -17,23 +17,16 @@ for (let i = 1; i < 101; i++) {
     // Per i multipli di 3 stampo Fizz
     if (i % 3 == 0) {
         console.log("Fizz");
-    } else {
-        console.log(i);
     // Per i multipli di 5 stampo Buzz    
-    } else (i % 5 == 0) {
-        console.log("Buzz");
-    } 
-        
-    
+    } else if (i % 5 == 0) {
+        console.log("Buzz")
+    // Per i multipli di 3 e 5 stampo FizzBuzz  
+    } else if (i % 3 == 0, i % 5 == 0) {
+        console.log("FizzBuzz")
+    } else {
+        console.log(i)
+    }
+
 }
 
-    // Per i multipli di 5 stampo Buzz
-/*     else if (i % 5 == 0) {
-        console.log("Buzz")
-    }
-    // Per i multipli di 3 e 5 stampo FizzBuzz
-    else {
-        console.log("FizzBuzz")
-    } */
-   
 
