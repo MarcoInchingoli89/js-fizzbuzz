@@ -13,6 +13,18 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”. */
 
 /* Istruzioni */
 // Conto i numeri da 1 a 100 e li stampo in console
-// Per i multipli di 3 stampo Fizz
+for (let number = 1; number < 101; number++) {
+    console.log(number)
+    // Per i multipli di 3 stampo Fizz
+if (number % 3 == 0) {
+    console.log("Fizz")
+}
 // Per i multipli di 5 stampo Buzz
+else if (number % 5 == 0) {
+    console.log("Buzz")
+}
 // Per i multipli di 3 e 5 stampo FizzBuzz
+else {
+    console.log("FizzBuzz")
+}
+}
